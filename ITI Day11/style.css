@@ -1,0 +1,29 @@
+.home{
+    background-image: url(realistic-neon-lights-background_23-2148907367.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.skill-label {
+    font-weight: bold;
+}
+.progress-section {
+    margin-top: 2rem;
+}
+
+
+.footer {
+    background-color: paleturquoise;
+    padding: 2rem 0;
+}
+.footer .col {
+    margin-bottom: 1rem;
+}
+.footer a {
+    color: #343a40;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
