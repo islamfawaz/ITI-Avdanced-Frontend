@@ -1,0 +1,23 @@
+h2 {
+    color: black;
+}
+
+p {
+    color: red;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+#output {
+    margin-top: 20px;
+}

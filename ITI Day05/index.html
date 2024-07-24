@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>islam fawaz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-section">
+      <label for="inputValues">Enter values separated by commas:</label><br>
+      <input type="text" id="inputValues">
+      <button onclick="sortValues()">Sort</button>
+    </div>
+
+    <div class="result-section">
+      <div>
+        <p class="output">You've entered values:</p>
+        <p id="enteredValues"></p>
+      </div>
+      <div>
+        <p class="output">Your values after being sorted in descending order:</p>
+        <p id="sortedDescending"></p>
+      </div>
+      <div>
+        <p class="output">Your values after being sorted in ascending order:</p>
+        <p id="sortedAscending"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

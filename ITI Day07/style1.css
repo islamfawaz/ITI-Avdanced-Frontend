@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a5db8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 3px solid #601c94;
+    border-radius: 5px;
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    color: white;
+}
+
+input::placeholder {
+    color: white;   
+}
+
+.add {
+    width: 30%;
+    padding: 10px;
+    background-color: #601c94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    color: #601c94;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.clear {
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    color: #601c94;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.add:hover {
+    background-color: white;
+    color: #601c94;
+}
+
+.reset:hover {
+    background-color: #601c94;
+    color: white;
+}
+.clear:hover {
+    background-color: #601c94;
+    color: white;
+}
+#userInfo {
+    margin-top: 20px;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #601c94;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

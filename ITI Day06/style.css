@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#userInput {
+    margin-bottom: 20px;
+}
+
+input[type="number"], input[type="text"], button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.error {
+    color: red;
+}
